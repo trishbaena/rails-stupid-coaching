@@ -1,0 +1,12 @@
+<div class="row justify-content-center mt-4">
+    <div class="col-lg-4 bg-white rounded shadow-sm p-5">
+      <h1 class="mb-3">Stupid Coaching</h1>
+      <div id="container">
+        <!-- Your code goes here -->
+        <form action="answer" method="get" data-turbo="false">
+          <input class="form-control" placeholder="Your question..." type="text" name="question" value="<%= params[:question] %>"/>
+          <input class="btn btn-primary mb-3" id="askbtn" type="submit" value="Ask!">
+        </form>
+      </div>
+    </div>
+  </div>
